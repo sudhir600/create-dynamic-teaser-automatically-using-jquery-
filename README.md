@@ -2,5 +2,8 @@
 I just created an awesome script. Lets assume you have 500 column and 100 columns records. there are so many columns can have large data but you are not sure when that will occur. My script will automatically convert that text snippet into teaser.   
 
 
+<br >
+<img src="http://s21.postimg.org/5mxczs6pj/screenshot_1.png" />
+
 
 

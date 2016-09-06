@@ -1,0 +1,9 @@
+.teaserDot{
+	float: right;
+	font-size: 11px;
+	width: 100%;
+	text-align: right;
+	font-family: calibri;
+	color: red;
+	font-style: italic;
+}

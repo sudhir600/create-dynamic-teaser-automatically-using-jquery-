@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Custom Teaser</title>
+	<script src="http://code.jquery.com/jquery-1.10.2.js"></script>
+	<script src="code.js"></script>
+	<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+	<table id="tableId" border="1">
+		<tbody>
+			<tr>
+				<td teaserLimit="1">Hello! this is 1st line</td>
+			</tr>
+			<tr>
+				<td teaserLimit="0">Hello Friend, How are you.</td>
+			</tr>
+			<tr>
+				<td teaserLimit="       string">The trim() method removes whitespace from both sides of a string.</td> <!-- space and string -->
+			</tr>
+			<tr>
+				<td>For browsers that do not support the trim() method, you can remove whitespaces from both sides of a string with a regular expression:</td> <!-- No teaser limit assing so default value will be assign -->
+			</tr>
+			<tr>
+				<td teaserLimit="15">
+					Lorem porem ispum donor<br />
+					Lorem porem ispum donor<br />
+					Lorem porem ispum donor<br />
+					Lorem porem ispum donor<br />
+					Lorem porem ispum donor<br />
+					Lorem porem ispum donor<br />
+					Lorem porem ispum donor<br />
+				</td>
+			</tr>
+		</tbody>
+	</table>
+	<script>applyTeaser($('#tableId tbody td'));</script>
+</body>
+</html>

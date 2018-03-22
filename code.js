@@ -4,7 +4,6 @@
   */
   var labelMore = 'Show More...';
   var labelLess = 'Show Less...';
-  var teaserLimit = 5;
   
   function makeTeaser(target,teaseLimit) {
 	  var strings = target.text().trim();
